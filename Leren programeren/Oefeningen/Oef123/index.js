@@ -7,11 +7,10 @@ for (i; i <= aantalOnevenLijnen; i++) {
     console.log(ster);
     ster = ster + "*";
 }
-for (i; i >= 1; i--) {
+for (let i= 5; i >= 1;i--) {
 
-    console.log(ster);
+    console.log(ster.slice(0,i));
 
-    ster = ster + "*";
 }
 
 
