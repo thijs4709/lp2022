@@ -7,7 +7,7 @@
 // is i priemgetal?
 
 let getal = Number(prompt("Geef een getal"));
-let i = 1;
+let i = 2;
 let x = 1;
 for (i; i <= getal; i++) {
     let count = 0;
